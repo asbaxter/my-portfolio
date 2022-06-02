@@ -115,3 +115,14 @@ nav ul li {
 .contact ul li p {
     margin-right: 20px;
 }
+
+/*-------------- Footer Section -----------------*/
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+footer p {
+    font-size: smaller;
+    padding: 3px;
+}
