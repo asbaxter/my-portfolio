@@ -69,3 +69,49 @@ nav ul li {
     width: 800px;
     padding: 50px;
 }
+
+/*-------------- My Work Section -----------------*/
+.my-work {
+    background-color: lightgrey;
+    text-align: center;
+}
+.my-work h2 {
+    padding: 15px;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+}
+.my-work div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.my-work div img {
+    height: 300px;
+    border: black solid 5px;
+    margin: 20px;
+}
+
+/*-------------- Contact Section -----------------*/
+
+.contact {
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contact h2 {
+    padding: 40px;
+    border-right: none;
+}
+.contact ul {
+    padding: 40px;
+    border-left: none;
+}
+.contact ul li {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.contact ul li p {
+    margin-right: 20px;
+}
