@@ -97,6 +97,8 @@ nav ul li {
 .my-work {
     background-color: var(--primary-color);
     text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .my-work div {
     display: flex;
@@ -114,7 +116,6 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1300px;
     margin-right: auto;
     margin-left: auto;
 }
