@@ -8,12 +8,11 @@
     --text-color: #10406F;
 }
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-family: 'Signika Negative', sans-serif;
 }
 a {
     text-decoration: none;
-    color: var(--text-color);
 }
 ul {
     list-style: none;
@@ -22,35 +21,43 @@ ul {
 /*-------------- Header Section -----------------*/
 header {
     padding: 10px;
-    background-color: var(--primary-color);
+    background-color: var(--text-color);
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 .header-text {
     margin: 10px;
-    color: var(--text-color);
+    color: var(--primary-color);
 }
 nav ul li {
     display: inline-flex;
-    padding: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px var(--primary-color) solid;
+}
+nav ul li a{
+    color: var(--primary-color);
 }
 
 /*-------------- Hero Section -----------------*/
 .hero-section {
-    height: 325px;
-    background-image: url(https://p.favim.com/orig/2018/08/29/aesthetic-blossom-anime-pixel-Favim.com-6261595.gif)
+    height: 500px;
+    background-image: url(https://p.favim.com/orig/2018/08/29/aesthetic-blossom-anime-pixel-Favim.com-6261595.gif); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .hero-section div {
     text-align: center;
-    margin-top: 225px;
+    margin-top: 325px;
     height: 70px;
     float: right;
     color: var(--text-color);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: 25px;
     width: 600px;
-    border: 3px #10406F solid;
+    border: 2px var(--text-color) solid;
 }
 .hero-section p {
     margin-top: 12px;
@@ -70,9 +77,10 @@ nav ul li {
 .about h2{
     padding: 15px;
     border-radius: 25px;
-    border: 3px #10406F solid;
+    border: 2px var(--text-color) solid;
     color: var(--text-color);
     width: 300px;
+    background-color: var(--secondary-color);
 }
 .about-content {
     display: flex;
@@ -82,7 +90,7 @@ nav ul li {
 }
 .about-content img {
     height: 100px;
-    border: 3px #10406F solid;
+    border: 2px var(--text-color) solid;
     border-radius: 25px;
     padding: 50px;
 }
@@ -108,9 +116,10 @@ nav ul li {
 .my-work h2 {
     padding: 15px;
     border-radius: 25px;
-    border: 3px #10406F solid;
+    border: 2px var(--text-color) solid;
     color: var(--text-color);
     width: 300px;
+    background-color: var(--secondary-color);
 }
 .my-work ul {
     display: flex;
@@ -121,10 +130,12 @@ nav ul li {
 }
 .my-work img {
     height: 300px;
-    border: 3px #10406F solid;
+    border: 2px var(--text-color) solid;
     border-radius: 25px;
     margin: 20px;
     width: 500px;
+    background-color: var(--secondary-color);
+    padding: 30px;
 }
 
 /*-------------- Contact Section -----------------*/
@@ -150,6 +161,11 @@ nav ul li {
 }
 .contact ul li p {
     margin-right: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.contact a {
+    color: var(--text-color);
 }
 
 /*-------------- Footer Section -----------------*/
