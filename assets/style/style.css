@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --primary-color: #d8f7ff;
+    --secondary-color: #ace7ff;
+    --text-color: #10406F;
+}
 body {
-    background-color: #F6F6FF;
+    background-color: var(--secondary-color);
     font-family: 'Signika Negative', sans-serif;
 }
 a {
     text-decoration: none;
+    color: var(--text-color);
 }
 ul {
     list-style: none;
@@ -16,13 +22,14 @@ ul {
 /*-------------- Header Section -----------------*/
 header {
     padding: 10px;
-    background-color: grey;
+    background-color: var(--primary-color);
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 .header-text {
     margin: 10px;
+    color: var(--text-color);
 }
 nav ul li {
     display: inline-flex;
@@ -31,27 +38,41 @@ nav ul li {
 
 /*-------------- Hero Section -----------------*/
 .hero-section {
-    height: 300px;
-    background-image: url(../images/hero-placeholder.jpg)
+    height: 325px;
+    background-image: url(https://p.favim.com/orig/2018/08/29/aesthetic-blossom-anime-pixel-Favim.com-6261595.gif)
 }
 .hero-section div {
     text-align: center;
-    font-size: large;
-    font-weight: bold;
-    padding-top: 250px;
-    padding-right: 50px;
+    margin-top: 225px;
+    height: 70px;
     float: right;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    width: 600px;
+    border: 3px #10406F solid;
+}
+.hero-section p {
+    margin-top: 12px;
+    font-weight: bold;
 }
 
 /*-------------- About Me Section -----------------*/
 .about {
-    background-color: grey;
+    background-color: var(--primary-color);
     text-align: center;
+}
+.about div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 .about h2{
     padding: 15px;
-    border-bottom: 3px black solid;
-    border-top: 3px black solid;
+    border-radius: 25px;
+    border: 3px #10406F solid;
+    color: var(--text-color);
+    width: 300px;
 }
 .about-content {
     display: flex;
@@ -60,48 +81,62 @@ nav ul li {
 
 }
 .about-content img {
-    height: 150px;
-    border: black solid 5px;
+    height: 100px;
+    border: 3px #10406F solid;
+    border-radius: 25px;
     padding: 50px;
 }
 .about-content p {
     text-align: center;
     width: 800px;
     padding: 50px;
+    color: var(--text-color);
 }
 
 /*-------------- My Work Section -----------------*/
 .my-work {
-    background-color: lightgrey;
+    background-color: var(--primary-color);
     text-align: center;
+}
+.my-work div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 .my-work h2 {
     padding: 15px;
-    border-bottom: 3px black solid;
-    border-top: 3px black solid;
+    border-radius: 25px;
+    border: 3px #10406F solid;
+    color: var(--text-color);
+    width: 300px;
 }
-.my-work div ul {
+.my-work ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
 }
-.my-work div img {
+.my-work img {
     height: 300px;
-    border: black solid 5px;
+    border: 3px #10406F solid;
+    border-radius: 25px;
     margin: 20px;
+    width: 500px;
 }
 
 /*-------------- Contact Section -----------------*/
 
 .contact {
-    background-color: grey;
+    background-color: var(--primary-color);
     text-align: center;
     display: flex;
     justify-content: center;
 }
 .contact h2 {
     padding: 40px;
-    border-right: none;
+    color: var(--text-color);
 }
 .contact ul {
     padding: 40px;
@@ -120,9 +155,11 @@ nav ul li {
 
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+    background-color: var(--text-color);
 }
 footer p {
     font-size: smaller;
     padding: 3px;
+    color: var(--primary-color);
 }
