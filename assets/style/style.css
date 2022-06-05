@@ -105,8 +105,8 @@ nav ul li a{
 .my-work {
     background-color: var(--primary-color);
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .my-work div {
     display: flex;
@@ -129,11 +129,11 @@ nav ul li a{
     margin-left: auto;
 }
 .my-work img {
-    height: 300px;
+    height: 200px;
     border: 2px var(--text-color) solid;
     border-radius: 25px;
     margin: 20px;
-    width: 500px;
+    width: 300px;
     background-color: var(--secondary-color);
     padding: 30px;
 }
@@ -179,4 +179,13 @@ footer p {
     font-size: smaller;
     padding: 3px;
     color: var(--primary-color);
+}
+/* --------- Pseadu-classes and finctionality ---------- */
+
+nav ul li:hover, nav ul li a:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.contact ul li a:hover {
+    font-weight: bold;
 }
