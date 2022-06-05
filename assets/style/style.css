@@ -192,6 +192,9 @@ nav li:hover, nav a:hover{
 .contact ul li a:hover {
     font-weight: bold;
 }
+.my-work li img:hover{
+    border: 5px solid var(--text-color);
+}
 
 /* ------ Mobile responsive features --------- */
 
@@ -206,5 +209,4 @@ nav li:hover, nav a:hover{
         width: 300px;
         height: 110px;
     }
-
   }
