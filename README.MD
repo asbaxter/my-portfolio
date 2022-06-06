@@ -2,7 +2,7 @@
 
 Link to Site: https://asbaxter.github.io/my-portfolio/
 
-This is my first attempt at building a resposive and interactive website. The goal of this project was to create a webpage that was functional and interactive on all media platforms. Create code that was well orginized and effecient and a webpage that could be easily changed and altered through variables. 
+This is my first attempt at building a resposive and interactive website. The goal of this project was to create a webpage that was functional and interactive on all media platforms. Create code that was well orginized and effecient and a webpage that could be easily changed and altered through variables. This was a great challenge building a website from scratch. I was able to learn a lot from creating this website and all in all I am happy with the result. 
 
 # acceptance criteria:
 
