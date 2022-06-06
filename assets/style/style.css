@@ -3,9 +3,9 @@
     padding: 0;
 }
 :root {
-    --primary-color: #d8f7ff;
-    --secondary-color: #ace7ff;
-    --text-color: #10406F;
+    --primary-color: #FAFFFD;
+    --secondary-color: #FAFFFD;
+    --text-color: #342E37;
 }
 body {
     background-color: var(--primary-color);
@@ -30,11 +30,13 @@ header {
     margin: 10px;
     color: var(--primary-color);
 }
+
 nav ul li {
     display: inline-flex;
     padding: 10px;
     border-radius: 25px;
     border: 2px var(--primary-color) solid;
+    box-shadow: 1px .5px .5px var(--primary-color);
 }
 nav ul li a{
     color: var(--primary-color);
@@ -42,22 +44,22 @@ nav ul li a{
 
 /*-------------- Hero Section -----------------*/
 .hero-section {
-    height: 500px;
-    background-image: url(https://p.favim.com/orig/2018/08/29/aesthetic-blossom-anime-pixel-Favim.com-6261595.gif); 
+    height: 600px;
+    background-image: url(../images/hero-picture.jpg); 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 .hero-section div {
     text-align: center;
-    margin-top: 325px;
+    margin-top: 450px;
     height: 70px;
-    float: right;
+    float: left;
     color: var(--text-color);
     background-color: var(--secondary-color);
     border-radius: 25px;
     width: 600px;
     border: 2px var(--text-color) solid;
+    box-shadow: 10px 5px 5px var(--text-color);
 }
 .hero-section p {
     margin-top: 12px;
@@ -81,6 +83,7 @@ nav ul li a{
     color: var(--text-color);
     width: 300px;
     background-color: var(--secondary-color);
+    box-shadow: 10px 5px 5px var(--text-color);
 }
 .about-content {
     display: flex;
@@ -94,6 +97,7 @@ nav ul li a{
     border-radius: 25px;
     padding: 10px;
     background-color: var(--secondary-color);
+    box-shadow: 10px 5px 5px var(--text-color);
 }
 .about-content p {
     text-align: center;
@@ -121,6 +125,7 @@ nav ul li a{
     color: var(--text-color);
     width: 300px;
     background-color: var(--secondary-color);
+    box-shadow: 10px 5px 5px var(--text-color);
 }
 .my-work ul {
     display: flex;
@@ -137,6 +142,7 @@ nav ul li a{
     width: 300px;
     background-color: var(--secondary-color);
     padding: 10px;
+    box-shadow: 10px 5px 5px var(--text-color);
 }
 .my-work p {
     padding: 10px;
@@ -228,6 +234,7 @@ nav li:hover, nav a:hover{
         flex-wrap: wrap;
         width: 300px;
         height: 110px;
+        margin-top: 350px;
     }
     .featured-work img {
         height: 200px;
@@ -236,5 +243,12 @@ nav li:hover, nav a:hover{
     .about h2 {
         width: 150px;
     }
-    
+    .hero-section {
+        background-size: 800px;
+        margin-top: -200px;
+    }
+    header {
+        position: relative;
+    }
+   
   }
