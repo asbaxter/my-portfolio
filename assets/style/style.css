@@ -125,12 +125,9 @@ nav ul li a{
 .my-work ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin-right: auto;
     margin-left: auto;
-}
-.my-work li {
-    width: 400px;
+    justify-content: center;
 }
 .my-work img {
     height: 200px;
@@ -139,7 +136,19 @@ nav ul li a{
     margin: 20px;
     width: 300px;
     background-color: var(--secondary-color);
-    padding: 30px;
+    padding: 10px;
+}
+.featured-work {
+    display: block;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.featured-work img {
+    height: 300px;
+    width: auto;
+    flex-wrap: wrap;
+    display: block;
+
 }
 
 /*-------------- Contact Section -----------------*/
@@ -210,4 +219,9 @@ nav li:hover, nav a:hover{
         width: 300px;
         height: 110px;
     }
+    .featured-work img {
+        height: 200px;
+        width: auto;
+    }
+    
   }
