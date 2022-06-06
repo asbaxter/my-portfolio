@@ -17,6 +17,9 @@ a {
 ul {
     list-style: none;
 }
+h1 {
+    text-shadow: 2px 2px black;
+  }
 
 /*-------------- Header Section -----------------*/
 header {
@@ -78,12 +81,11 @@ nav ul li a{
 }
 .about h2{
     padding: 15px;
-    border-radius: 25px;
-    border: 2px var(--text-color) solid;
+    border-bottom: 2px var(--text-color) solid;
     color: var(--text-color);
-    width: 300px;
+    width: 400px;
     background-color: var(--secondary-color);
-    box-shadow: 10px 5px 5px var(--text-color);
+    
 }
 .about-content {
     display: flex;
@@ -104,6 +106,10 @@ nav ul li a{
     width: 800px;
     padding: 50px;
     color: var(--text-color);
+    background-color: var(--secondary-color);
+    box-shadow: 10px 5px 5px var(--text-color);
+    border: 2px var(--text-color) solid;
+    border-radius: 25px;
 }
 
 /*-------------- My Work Section -----------------*/
@@ -120,12 +126,10 @@ nav ul li a{
 }
 .my-work h2 {
     padding: 15px;
-    border-radius: 25px;
-    border: 2px var(--text-color) solid;
+    border-bottom: 2px var(--text-color) solid;
     color: var(--text-color);
-    width: 300px;
+    width: 400px;
     background-color: var(--secondary-color);
-    box-shadow: 10px 5px 5px var(--text-color);
 }
 .my-work ul {
     display: flex;
@@ -250,5 +254,4 @@ nav li:hover, nav a:hover{
     header {
         position: relative;
     }
-   
   }
