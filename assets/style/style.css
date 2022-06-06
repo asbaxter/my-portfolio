@@ -138,6 +138,16 @@ nav ul li a{
     background-color: var(--secondary-color);
     padding: 10px;
 }
+.my-work p {
+    padding: 10px;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    border-radius: 25px;
+    width: 200px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+    position: relative;
+}
 .featured-work {
     display: block;
     margin-right: 300px;
@@ -148,8 +158,8 @@ nav ul li a{
     width: auto;
     flex-wrap: wrap;
     display: block;
-
 }
+
 
 /*-------------- Contact Section -----------------*/
 
@@ -222,6 +232,9 @@ nav li:hover, nav a:hover{
     .featured-work img {
         height: 200px;
         width: auto;
+    }
+    .about h2 {
+        width: 150px;
     }
     
   }
