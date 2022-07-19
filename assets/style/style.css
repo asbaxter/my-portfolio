@@ -142,10 +142,10 @@ nav ul li a{
     height: 200px;
     border: 2px var(--text-color) solid;
     border-radius: 25px;
-    margin: 20px;
+    margin: 25px;
     width: 300px;
     background-color: var(--secondary-color);
-    padding: 10px;
+    padding: 5px;
     box-shadow: 10px 5px 5px var(--text-color);
 }
 .my-work p {
@@ -160,8 +160,8 @@ nav ul li a{
 }
 .featured-work {
     display: block;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 500px;
+    margin-left: 500px;
 }
 .featured-work img {
     height: 300px;
