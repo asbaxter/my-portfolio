@@ -140,7 +140,7 @@ nav ul li a{
     justify-content: center;
 }
 .my-work img {
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     height: 200px;
     outline: 2px var(--text-color) solid;
     border-radius: 25px;
@@ -227,7 +227,7 @@ nav li:hover a{
     text-shadow: 0 0.015em var(--text-color),0 -0.015em var(--text-color),0.01em 0 var(--text-color),-0.01em 0 var(--text-color);
 }
 .my-work li img:hover{
-    border: 5px solid var(--text-color);
+    border: 3px solid var(--text-color);
 }
 
 /* ------ Mobile responsive features --------- */
@@ -237,19 +237,14 @@ nav li:hover a{
         flex-wrap: wrap;
     }
     .hero-section div {
-        display: flex;
-        width: fit-content;
-        flex-wrap: wrap;
-        width: 300px;
-        height: 110px;
-        margin-top: 350px;
+        display: none;
     }
     .featured-work img {
+        width: 300px;
         height: 200px;
-        width: auto;
     }
     .about h2 {
-        width: 150px;
+        width: 300px;
     }
     .hero-section {
         background-size: 800px;
@@ -258,4 +253,18 @@ nav li:hover a{
     header {
         position: relative;
     }
+    .contact {
+        display: block;
+    }
+    .contact section {
+        margin-top: -50px;
+        display: inline-block;
+        text-align: left;
+    }
+    .hero-section {
+        height: 500px;
+        background-position: right;
+    }
+
+
   }
