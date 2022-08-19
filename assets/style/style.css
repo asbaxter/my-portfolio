@@ -140,8 +140,9 @@ nav ul li a{
     justify-content: center;
 }
 .my-work img {
+    border: 5px solid transparent;
     height: 200px;
-    border: 2px var(--text-color) solid;
+    outline: 2px var(--text-color) solid;
     border-radius: 25px;
     margin: 25px;
     width: 300px;
@@ -216,12 +217,14 @@ footer p {
 }
 /* --------- Pseadu-classes and finctionality ---------- */
 
-nav li:hover, nav a:hover{
+nav li:hover {
     background-color: var(--primary-color);
+}
+nav li:hover a{
     color: var(--text-color);
 }
 .contact ul li a:hover {
-    font-weight: bold;
+    text-shadow: 0 0.015em var(--text-color),0 -0.015em var(--text-color),0.01em 0 var(--text-color),-0.01em 0 var(--text-color);
 }
 .my-work li img:hover{
     border: 5px solid var(--text-color);
